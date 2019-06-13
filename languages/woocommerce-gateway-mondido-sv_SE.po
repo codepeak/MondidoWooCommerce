@@ -79,11 +79,11 @@ msgid "Merchant ID for Mondido"
 msgstr ""
 
 #: ../includes/class-wc-gateway-mondido-hw.php:121
-msgid "Secret"
+msgid "Password"
 msgstr ""
 
 #: ../includes/class-wc-gateway-mondido-hw.php:123
-msgid "Given secret code from Mondido"
+msgid "Given Password code from Mondido"
 msgstr ""
 
 #: ../includes/class-wc-gateway-mondido-hw.php:127
