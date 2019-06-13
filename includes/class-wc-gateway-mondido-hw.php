@@ -119,9 +119,9 @@ class WC_Gateway_Mondido_HW extends WC_Gateway_Mondido_Abstract {
 				'default'     => ''
 			),
 			'secret'            => array(
-				'title'       => __( 'Secret', 'woocommerce-gateway-mondido' ),
+				'title'       => __( 'Password', 'woocommerce-gateway-mondido' ),
 				'type'        => 'text',
-				'description' => __( 'Given secret code from Mondido', 'woocommerce-gateway-mondido' ),
+				'description' => __( 'Given password code from Mondido', 'woocommerce-gateway-mondido' ),
 				'default'     => ''
 			),
 			'password'          => array(
