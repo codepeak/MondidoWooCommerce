@@ -100,9 +100,9 @@ class WC_Gateway_Mondido_Bank extends WC_Gateway_Mondido_HW {
 				'default'     => ''
 			),
 			'secret'            => array(
-				'title'       => __( 'Password', 'woocommerce-gateway-mondido' ),
-				'type'        => 'text',
-				'description' => __( 'Given password code from Mondido', 'woocommerce-gateway-mondido' ),
+				'title'       => __( 'Secret', 'woocommerce-gateway-mondido' ),
+				'type'        => 'password',
+				'description' => __( 'Given secret code from Mondido', 'woocommerce-gateway-mondido' ),
 				'default'     => ''
 			),
 			'password'          => array(
