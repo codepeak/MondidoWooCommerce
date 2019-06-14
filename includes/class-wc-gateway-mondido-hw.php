@@ -170,6 +170,7 @@ class WC_Gateway_Mondido_HW extends WC_Gateway_Mondido_Abstract {
 				'title'          => __( 'Logos', 'woocommerce-gateway-mondido' ),
 				'description'    => __( 'Logos on checkout', 'woocommerce-gateway-mondido' ),
 				'type'           => 'multiselect',
+                'css'            => 'height: 200px;',
 				'options'        => array(
 					'visa'       => __( 'Visa', 'woocommerce-gateway-mondido' ),
 					'mastercard' => __( 'MasterCard', 'woocommerce-gateway-mondido' ),
