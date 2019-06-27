@@ -44,14 +44,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		WC()->api_request_url( get_class( $gateway ) )
 	);
 	?>
-    <br>
-	<?php
-	echo sprintf(
-		__('WebHook URL: <a href="%s" target="_blank">%s</a>. Type: JSON. Method: POST. Event: "When a credit card is stored"', 'woocommerce-gateway-mondido'),
-		add_query_arg( 'store_card', 'true', WC()->api_request_url( get_class( $gateway ) ) ),
-		add_query_arg( 'store_card', 'true', WC()->api_request_url( get_class( $gateway ) ) )
-	);
-	?>
 </p>
 <table class="form-table">
 	<?php $gateway->generate_settings_html( $gateway->get_form_fields(), true ); ?>
